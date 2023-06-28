@@ -45,7 +45,7 @@ h1, h2, h3, h4, p {
 }
 
 .container {
-    margin-inline:calc(var(--index) * 6.7);
+    margin-inline:calc(var(--index) * 4);
     padding-top: 20px;
 }
 
@@ -59,7 +59,7 @@ header {
     border-bottom: 1px solid #000;
 }
 
-header button {
+.headBtn {
     width: 215px;
     height: 40px;
     border-radius: 5px;
@@ -72,8 +72,14 @@ header button {
     transition: .2s ease;
 }
 
-header button:is(:hover, :focus) {
+.headBtn:is(:hover, :focus) {
     transform: translateY(-3px);
+}
+
+.headBtn.active {
+    position: fixed;
+    top: -50px;
+    right: 80px;
 }
 
 /* MAIN SECTION */
