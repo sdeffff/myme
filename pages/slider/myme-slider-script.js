@@ -52,10 +52,9 @@ if(window.innerWidth >= 1536) {
     })
     
     sliderBtns[2].addEventListener("click", () => {
-        sliderImgs.style.marginLeft = '-1360px'
+        sliderImgs.style.marginLeft = '-1375px'
     })
 
     console.log('fas')
 }
 
-console.log(window.screen);

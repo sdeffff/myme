@@ -6,11 +6,14 @@
 
     <link rel="stylesheet" type="text/css" href="./myme-style.css">
     
-
+    <!-- AOS -->   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Myme</title>
 </head>
 <body>
+
     <div class="container"> 
         <header>
            <a href="#"><img src="./logos variations/logo.svg" alt="logo"> </a> 
@@ -32,17 +35,90 @@
                 <div class="bottom-txt"> 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .</p>
 
-                    <button>Get started</button>
+                    <button data-aos="fade-up">Get started</button>
                 </div>
 
                 <img src="./imgs/image 2.png" alt="">
             </div>
 
         </main>
+
+        <section class="second">
+            <div class="content-container">
+
+                <div class="text-container">
+        
+                  <div class="text-content"> 
+                    <p class="title" data-aos="fade-up">Make your <span class="first">day</span> more <span class="second">focused</span> & <span class="third">organized</span></p>
+                    <p class="text" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel animi, accusamus ab, nisi ipsa odit explicabo accusantium, praesentium vero dignissimos quasi. Iste reiciendis ullam cum?</p>
+        
+                    <button data-aos="fade-up"><span class="text-btn">Explore App</span> <span class="arrow"><img src="./pages/second/img/arrow.svg" alt="arrow"></span></button>
+                  </div>
+        
+                    <div class="third-frame">
+                      <img src="./pages/second/img/Group.svg" alt="element" data-aos="fade-up">
+                    </div>
+                  
+        
+                </div>
+            
+              <div class="image-container">
+                  <img src="./pages/second/img/focus (1) 1.png" alt="" class="first-frame" data-aos="fade-up">
+                  <img src="./pages/second/img/orginize 1.png" alt="" class="second-frame" data-aos="fade-up">
+              </div>
+        
+            </div>
+        </section>
+
+        <section class="slider-sec">
+            <div class="slider"> 
+
+                <div class="slider-btns">
+                    <button class="slider-btn active" data-aos="fade-up">
+                        <div>
+                            <h3>Boards</h3>
+        
+                            <p>Trello boards keep tasks organized and work moving forward. In a glance, see everything from “things to do” to “aww yeah, we did it!”</p>
+                        </div>
+                    </button>
+                    
+                    <button class="slider-btn" data-aos="fade-up">
+                        <div>
+                            <h3>Boards</h3>
+        
+                            <p>Trello boards keep tasks organized and work moving forward. In a glance, see everything from “things to do” to “aww yeah, we did it!”</p>
+                        </div>
+                    </button>
+                    
+                    <button class="slider-btn" data-aos="fade-up">
+                        <div>
+                            <h3>Boards</h3>
+        
+                            <p>Trello boards keep tasks organized and work moving forward. In a glance, see everything from “things to do” to “aww yeah, we did it!”</p>
+                        </div>
+                    </button>
+                </div>
+        
+                <div class="slider-imgs-container" data-aos="fade-up"> 
+                    <div class="slider-imgs-inner"> 
+                        <div class="slider-imgs">
+                            <img src="./pages/slider/slider-img.png" alt="" class="slider-img">
+        
+                            <img src="./pages/slider/slider-img.png" alt="">
+        
+                            <img src="./pages/slider/slider-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+        
+                </div>
+        </section>
     </div>
 
-    <a href="./pages/slider/myme-slider.html" style="font-size: 50px;">SLIDER</a>
-
     <script src="./myme-script.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
